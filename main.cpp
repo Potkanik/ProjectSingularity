@@ -23,6 +23,7 @@ int main ()
 // skompilujes to cez toto g++ -std=c++11 main.cpp -o main.out
 // spustis ./main.out
 
+
 Person* p = new Person();
 p->Width = 5;
 p->ID = p->CalculateWidth(p->Width);
