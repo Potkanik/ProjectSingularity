@@ -14,6 +14,8 @@ int main ()
 
 // skompilujes to cez toto g++ -std=c++11 main.cpp -o main.out
 // spustis ./main.out
+// git config --global credential.helper 'cache --timeout=36000'
+// to je to ay ta to neotravoalo 10 hodin so zadavanim mena a hesla
 
 
 Person* p = new Person();
