@@ -1,18 +1,42 @@
-/// Main.cpp
-/// Hehe hehe asi to ide
-/// Hoja hop
-// sadsadsad
-/// dasdsadsa
-///asd sadasd
-/// dasdsadsa
-///asd sadasd
-/// dasdsadsa
-///asd sadasd
-/// dasdsadsa
-///asd sadasdgit config --global credential.helper 'cache --timeout=3600'
-/// asd///a 
-/// 760224988
-/// sadsadsadsad
-///sad sdadsa
-// asdsadas
-sadasd
+#include <iostream>
+#include <ctime>
+#include <string>
+#include <chrono>
+#include "Classes/Person.h"
+// #include "Libraries/cudnn.h"
+
+// using namespace cuda;
+using namespace std::chrono;
+
+int main ()
+{
+ auto start = std::chrono::high_resolution_clock::now();
+
+// cudnnCreate();
+
+// nepocujem ta!!!
+Person* p = new Person();
+p->Width = 5;
+p->ID = p->CalculateWidth(p->Width);
+
+Person* pp = new Person(10);
+pp->Width = 50;
+pp->ID = 0;
+
+long long bilion = 1000000000;
+long long i;
+for(i = 0; i < bilion; i++)
+{
+    long long milion = 100000000;
+if(i % milion == 0)
+std::cout << std::to_string(i) << '\r' << std::flush ;
+
+}
+
+auto elapsed = std::chrono::high_resolution_clock::now() - start;
+
+long long microseconds = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count();
+std::cout <<  + "\n";
+std::cout << "Execution time is: "+ std::to_string(microseconds)+ " microseconds (" + std::to_string(microseconds*0.000001) + " seconds).\n";
+  return 0;
+}
