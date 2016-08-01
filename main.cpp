@@ -5,7 +5,7 @@
 /// ide nejde
 /// ide nejde
 /// ide nejde
-=======
+=======%
 #include <iostream>
 #include <ctime>
 #include <string>
