@@ -14,6 +14,7 @@ int main ()
 
 // cudnnCreate();
 
+
 // nepocujem ta!!!
 Person* p = new Person();
 p->Width = 5;
