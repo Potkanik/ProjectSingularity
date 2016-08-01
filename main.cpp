@@ -38,6 +38,7 @@ std::cout << std::to_string(i) << '\r' << std::flush ;
 
 }
 
+
 auto elapsed = std::chrono::high_resolution_clock::now() - start;
 
 long long microseconds = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count();
