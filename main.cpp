@@ -22,6 +22,8 @@ int main ()
 
 // skompilujes to cez toto g++ -std=c++11 main.cpp -o main.out
 // spustis ./main.out
+// git config --global credential.helper 'cache --timeout=36000'
+// to je to ay ta to neotravoalo 10 hodin so zadavanim mena a hesla
 
 
 Person* p = new Person();
@@ -43,6 +45,10 @@ std::cout << std::to_string(i) << '\r' << std::flush ;
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0a65b33ceb35f38881ab15afdeba5e48be3dfa22
 auto elapsed = std::chrono::high_resolution_clock::now() - start;
 
 long long microseconds = std::chrono::duration_cast<std::chrono::microseconds>(elapsed).count();
