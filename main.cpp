@@ -12,10 +12,9 @@ int main ()
 {
  auto start = std::chrono::high_resolution_clock::now();
 
-// cudnnCreate();
+// skompilujes to cez toto g++ -std=c++11 main.cpp -o main.out
+// spustis ./main.out
 
-
-// nepocujem ta!!!
 Person* p = new Person();
 p->Width = 5;
 p->ID = p->CalculateWidth(p->Width);
